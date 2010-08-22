@@ -1,4 +1,3 @@
-import gevent
 from gevent import spawn
 from gevent.monkey import patch_socket; patch_socket()
 from irc import Dispatcher, IRCBot
